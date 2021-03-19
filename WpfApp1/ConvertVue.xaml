@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WpfApp1.ConvertVue"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Gray">
+        <TextBlock Name="AfficheConvert" HorizontalAlignment="Left" Margin="558,213,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox Name="Enter" HorizontalAlignment="Left" Height="55" Margin="117,197,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="119" TextInput="TextBox_TextInput" FontSize="36"/>
+        <Button Content="Enter" HorizontalAlignment="Left" Margin="141,298,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="198,50,0,0" TextWrapping="Wrap" Text="Convertisseur de  monaie CAD à Euros" VerticalAlignment="Top" FontStyle="Italic" TextDecorations="Underline" FontSize="36" Foreground="#FF18E813"/>
+        <TextBlock HorizontalAlignment="Left" Margin="241,213,0,0" TextWrapping="Wrap" Text="$" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="558,158,0,0" TextWrapping="Wrap" Text="Résultat" VerticalAlignment="Top" Foreground="#FFBA0A0A" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="711,213,0,0" TextWrapping="Wrap" Text="€" VerticalAlignment="Top" FontSize="36"/>
+
+    </Grid>
+</UserControl>

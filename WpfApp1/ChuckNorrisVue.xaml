@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="WpfApp1.ChuckNorrisVue"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="540" d:DesignWidth="1010">
+    <Grid Name="Grid" Background="Coral">
+        <Image  HorizontalAlignment="Center" Height="100" Margin="411,63,498.6,0"  Width="200" />
+        <TextBlock Name="Jokes" HorizontalAlignment="Left" Margin="10,352,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="30" FontStyle="Italic" Height="152" Width="990"/>
+        <Button Content="Nouvelle Blague" HorizontalAlignment="Left" Margin="411,108,0,0" VerticalAlignment="Top" Width="170" Click="Button_Click"/>
+
+    </Grid>
+</UserControl>

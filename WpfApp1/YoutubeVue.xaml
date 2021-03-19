@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="WpfApp1.YoutubeVue"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="520" d:DesignWidth="1010">
+    <Grid Name="MainGrid" Height="510" Margin="-58,5,4.6,5">
+        <UniformGrid Name="UniGrid" Background="DarkRed" Margin="0,0,-27,0.4">
+
+
+
+
+        </UniformGrid>
+        <Button Content="-->" HorizontalAlignment="Left" Margin="936,462,0,-10" VerticalAlignment="Top" Width="75" Click="Button_ClickSuivant"/>
+        <Button Content="«--" HorizontalAlignment="Left" Margin="10,468,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Precedent"/>
+    </Grid>
+
+</UserControl>
